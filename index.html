@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\bootstrap.css">
+    <title>feed back app </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-2">
+        <div class="container-lg">
+            <a href="#" class="navbar-brand">
+                <span class="fw-bold text-warning">mysite</span>
+            </a>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <spam class="navbar-toggler-icon"></spam>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="list.html" class="nav-link">list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="abou.html" class="nav-link">About</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-secondary py-4 text-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class=" col-md-6 col-lg-4">
+                    <h1 class="text-center text-light text-capitalize"> leave a feedback</h1>
+                    <form action="#" method="post">
+                        <label for="name" class="form-label">Enter Your name</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your name here" required>
+                        <label for="email" class="form-label">Enter Your Email</label>
+                        <input type="email" name="email" id="name" class="form-control" placeholder="Your email here" required>
+                        <label for="feed" class="form-label"> Enter Your Feedback</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-contol w-100"></textarea>
+                        <div class="row justify-content-center py-3">
+                        <input type="submit" value="send" class="btn btn-primary w-50">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-light py-4">
+        copy &copy; 2023 abdulwahabtech
+    </footer>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
